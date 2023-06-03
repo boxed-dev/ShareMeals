@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    
+    font-family: 'Handlee', cursive;
+}
+
+/* Starting navbar */
+
+.navbar {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border: 100px;
+    border-color: white;
+}
+
+.nav-left ul {
+    overflow: auto;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.nav-left li {
+    padding-top: 10px;
+    float: right;
+    list-style: none;
+    margin: 9px 20px;
+}
+
+.nav-left li a {
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font: optional;
+    padding-bottom: 16px;
+    transition-duration: 0.55s;
+    border-radius: 10px;
+}
+
+.nav-left li a:hover {
+    /* background-color: yellow; */
+    
+    background-color: rgb(255, 179, 0);
+    color: black;
+    font-weight: bold;
+}
+
+.nav-left p {
+    font-size: 35px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.nav-left li a:hover {
+    /* background-color: yellow; */
+    
+    background-color: rgb(255, 179, 0);
+    color: black;
+}
+/* Navbar Ended */
+.card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 30px; /* Adjust this value to add more space */
+}
+.card a {
+    text-decoration: none;
+    color: #000;
+    background-color: #f4f4f4;
+    padding: 13px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 40px; /* Adjust this value to shift the button down */
+}
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: -10px; /* Adjust this value to shift the text upwards */
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 19px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
+    background-color: #f4f4f4;
+    padding: 13px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    /* background-color: #d7f10e; */
+    
+    background-color: rgb(255, 179, 0);
+}

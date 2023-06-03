@@ -1,0 +1,302 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  font-family: 'Handlee', cursive;
+}
+
+
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  position: relative;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: #3ca9e2;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* a:focus, a:hover,
+a:link:focus,
+a:link:hover,
+a:visited:focus,
+a:visited:hover,
+a:active:focus,
+a:active:hover {
+  color: #329dd5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+} */
+
+  #login-form-wrap {
+  background-color: #fff;
+  width: 30%; /* Decrease the width of the form */
+  margin: 40px auto;
+  text-align: center;
+  padding: 15px 0; /* Add padding */
+  border-radius: 5px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+#login-form {
+  padding: 70 30px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+      -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #48bbf9;
+}
+input[type="text"]:focus:invalid,
+input[type="email"]:focus:invalid {
+  color: #cc1e2b;
+  border-color: #cc1e2b;
+}
+
+
+input[type="text"]:valid ~ .validation span:first-child,
+input[type="email"]:valid ~ .validation span:first-child {
+  top: 30px;
+  left: 14px;
+  width: 20px;
+  height: 3px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+input[type="text"]:valid ~ .validation span:last-child,
+input[type="email"]:valid ~ .validation span:last-child {
+  top: 35px;
+  left: 8px;
+  width: 11px;
+  height: 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.validation {
+  display: none;
+  position: absolute;
+  content: " ";
+  height: 60px;
+  width: 30px;
+  right: 15px;
+  top: 0px;
+}
+
+input[type="submit"] {
+  border: none;
+  display: block;
+  background-color: #000000;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+input[type="submit"]:hover {
+  background-color: #f3bc16;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#create-account-wrap {
+  background-color: #d4d2d7;
+  color: #2308f4;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 0 0 4px 4px;
+}
+.form-body {
+  /* ...existing styles... */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body {
+  /* ...existing styles... */
+  font-size: 20px;
+}
+
+#login-form-wrap {
+  /* ...existing styles... */
+  width: 30%;
+  margin: 100px auto;
+  padding: 80px;
+  box-shadow: 0px 50px 50px 0px rgba(112, 106, 106, 0.8);
+}
+
+#login-form {
+  /* ...existing styles... */
+  padding: 40 50px;
+}
+
+input[type="text"],
+input[type="email"] {
+  /* ...existing styles... */
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  /* ...existing styles... */
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+}
+
+#create-account-wrap {
+  font-size: 14px; /* Adjust the font size as needed */
+  padding: 15px 0; /* Adjust the padding as needed */
+}
+
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 100px; /* Adjust the margin-bottom as needed */
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+#create-account-wrap {
+  margin-bottom: 30px; }
+h2 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 100px; 
+  font-size: 50px; 
+}
+
+#login-form-wrap {
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px; 
+}
+
+
+h2 {
+  margin-bottom: 30px; 
+}
+
+
+/* Starting navbar */
+
+.navbar{
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border: 10px;
+  border-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-left ul{
+  overflow: auto;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: fit-content;
+  margin-top: 2px;
+}
+
+.nav-left li{
+  border-radius: 10px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  float: right;
+  list-style: none;
+  margin: 15px 20px;
+  padding-top: 7px;
+}
+
+.nav-left li a{
+  color: white;
+  font-size: 20px;
+  /* padding: 10px 20px; */
+  text-decoration: none;
+  font: optional;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  transition-duration: 0.55s;
+  border-radius: 10px; 
+  padding-left: 25px;
+  padding-right: 25px;  
+}
+
+.nav-left li :hover{
+  /* background-color: rgb(255, 213, 0); */
+  background-color: rgb(255, 179, 0);
+  color: black;
+  font-weight: bold;
+}
+
+
+.nav-left p{
+  font-size: 35px;
+  padding-top: 15px;
+  padding-left: 30px;
+  width: fit-content;
+}
+
+/* Navbar Ended */
+
+.logo{
+  padding-top: 15px;
+  font-size: 35px;
+  padding-left: 27px;
+}

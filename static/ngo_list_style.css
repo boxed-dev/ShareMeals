@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Handlee', cursive;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Handlee', cursive;
+  background-color: rgb(238, 238, 238)    
+}
+
+/* Starting navbar */
+
+.navbar{
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.nav-left ul{
+  overflow: auto;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.nav-left li{
+  
+  padding-top: 10px;
+  float: right;
+  list-style: none;
+  margin: 15px 20px;
+}
+
+.nav-left li a{
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font: optional;
+  padding-bottom: 16px;
+  transition-duration: 0.55s;
+  border-radius: 10px;
+}
+
+.nav-left li :hover{
+  /* background-color: rgb(255, 213, 0); */
+  
+  background-color: rgb(255, 179, 0);
+  color: black;
+  font-weight: bold;
+}
+
+
+.nav-left p{
+  font-size: 35px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+/* Navbar Ended */
+
+
+
+
+
+
+/* CSS Styling */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 20px;
+    background-color:#2c2c2c;
+    color: #6a78df;
+  } */
+
+  h1 {
+    text-align: center;
+  }
+
+  .ngo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .ngo-item {
+    display: flex;
+    /* margin-bottom: 20px;  */
+    /* border: 5px solid #888888; */
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    /* border-radius: 15px; */
+    /* background-color: blue; */
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    border-radius: 15px;
+  }
+
+  .ngo-image {
+    width: 600px;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 12px;  
+  }
+
+  .ngo-details {
+    margin-right: 30px;
+    font-size: 19px;
+  }
+
+  /* Customized CSS for NGO Name */
+  .ngo-details p:nth-child(2) {
+    font-family: "Comic Sans MS", cursive;
+    color: #ffffff; /* Change the color as desired */
+  }
+  .ngo-details p:nth-child(3) {
+      font-family: "Times New Roman", cursive;
+      color: #b06868; /* Change the color as desired */
+    }
+
+.heading-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: pink;    */
+}
+
+.heading-container p{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.about-container{
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.donate-btn-container{
+  /* background-color: wheat; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.donate-button {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 7px;
+}
+
+.donate-button:hover {
+  /* background-color: rgb(255, 213, 0); */
+  background-color: rgb(255, 179, 0);
+  color: black;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-list{
+  margin-top: 0px;
+}
+
+.list-heading-container{
+  margin-top: 150px;
+  margin-left: 80px;
+  margin-bottom: 60px;
+}
+
+.list-heading-heading{
+  font-size: 30px;
+  font-weight: 700;
+}

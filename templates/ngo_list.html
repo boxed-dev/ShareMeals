@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/static/ngo_list_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <h1>List of NGO</h1>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="nav-left">
+        <ul>
+            <li><a href="login">Login</a></li>
+            <li><a href="home#contact">Contact Us</a></li>
+            <li><a href="home#our-impact">Our Impact</a></li>
+            <li><a href="home#about">About us</a></li>
+            <li><a href="home">Home</a></li>
+            <p>ShareMeals</p>
+        </ul>
+    </div>
+  </div>
+
+  <!-- <ul class="ngo-list">
+    <li class="ngo-item">
+      <img src="/static/prayas.jpg" height="400" width="400" alt=" ngo logo" class="ngo-image">
+      <div class="ngo-details">
+        <p>NGO Name : Prayas</p>
+        <p>This is a sample tagline for prayas</p>
+        <p>This is sample about prayas</p>
+        <button class="donate-button">
+          <span>Donate</span>
+        </button>
+      </div>
+    </li> -->
+
+    <div class="list-heading-container">
+      <p class="list-heading-heading">One step towards a happy India :)</p>
+    </div>
+    {% for k in ngolist %}
+    <div class="main-list">
+      <div class="item-box">
+        <li class="ngo-item">
+          <img src="/static/{{k.0}}.jpg" height="400" width="400" alt=" ngo logo" class="ngo-image">
+          <div class="ngo-details">
+            <div class="heading-container"> 
+              <p>{{k.0}}: {{k.3}}</p>
+            </div>
+            <div class="tag-line-container">  
+              
+            </div>
+            <div class="about-container">
+              <p>{{k.2}}</p>
+            </div>
+            <div class="donate-btn-container">
+              <button class="donate-button">
+                <span>Donate</span>
+              </button>
+            </div>
+          </div>
+        </li>
+      </div>
+    </div>
+    {% endfor %}
+</body>
+</html>

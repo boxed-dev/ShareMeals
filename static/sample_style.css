@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 120px;
+    padding-left: 120px;    
+    padding-bottom: 30px;
+    background-color: pink;
+}
+
+.section-para{
+    text-align: justify;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+.section2-image{
+    max-width: 420px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.section-para-parent{
+    height: 220px;
+    background-color: aqua;
+}
+
+.tag-line-container{
+    background-color: wheat;
+}
+
+.donate-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

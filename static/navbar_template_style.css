@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    font-family: 'Handlee', cursive;
+}
+
+/* Starting navbar */
+
+.navbar{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border: 10px;
+    border-color: white;
+}
+
+.nav-left ul{
+    overflow: auto;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.nav-left li{
+    
+    padding-top: 10px;
+    float: right;
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.nav-left li a{
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font: optional;
+    padding-bottom: 16px;
+    transition-duration: 0.55s;
+    border-radius: 10px;
+}
+
+.nav-left li :hover{
+    background-color: rgb(255, 213, 0);
+    color: black;
+    font-weight: bold;
+}
+
+
+.nav-left p{
+    font-size: 35px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+/* Navbar Ended */
+
+
